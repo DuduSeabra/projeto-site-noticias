@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.fixed-ad {
+    position: fixed; /* Fixo na parte superior */
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000; /* Fica acima de outros conteúdos */
+}
+
+main {
+    padding: 70px 20px 20px; /* Espaço para o anúncio fixo */
+    margin: 0 15%;
+}
+
+.ad-above-title {
+    background: #ddd;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.ad-middle {
+    background: #eee;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.ad-end {
+    background: #ddd;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
